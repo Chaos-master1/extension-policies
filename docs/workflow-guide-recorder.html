@@ -1,0 +1,40 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workflow SOP &amp; Guide Recorder — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 6rem;
+    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 .3rem; }
+  .meta { opacity: .65; font-size: .9rem; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  code { font-size: .92em; }
+</style>
+<h1>Workflow SOP &amp; Guide Recorder — Privacy Policy</h1>
+<p class="meta">Last updated 2026-10-10</p>
+
+<h2>What this extension does</h2>
+<p>Single-purpose workflow SOP recorder that captures clicks, inputs and navigations on https://example.com/*, annotates viewport snapshots with red numbered badges, and generates an editable Markdown + HTML guide locally in the Chrome Side Panel.</p>
+
+<h2>Data it handles</h2>
+<p>This extension does not collect, store or transmit any personal data.</p>
+
+<h2>Where that data goes</h2>
+<p>Nothing is stored or transmitted.</p>
+
+<h2>Permissions</h2>
+<ul><li><code>activeTab</code> — activeTab: Needed to inject the recorder panel container (.wgr-panel) and red numbered badges (.wgr-badge) into the active tab and to capture clicks, inputs and navigations for the step list.</li><li><code>hostPermissions</code> — host access https://example.com/*: Content script runs only on https://example.com/* to inject the panel, overlay badges, and record workflow steps where the extension is designed to operate.</li><li><code>sidePanel</code> — sidePanel: Needed to display the recorder UI, step list (.wgr-step), filter bar, search (#wgr-search), counter badge and Markdown/HTML export controls in the Chrome Side Panel and to open the panel on action click.</li><li><code>storage</code> — storage: Needed to save recorded steps, counters and generated Markdown/HTML locally on-device so the guide persists between sessions without any cloud sync.</li></ul>
+
+<h2>Selling and unrelated use</h2>
+<p>
+  This extension does not sell data to third parties, does not use or transfer data for purposes
+  unrelated to the single purpose stated above, and does not use or transfer data to determine
+  creditworthiness or for lending purposes.
+</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:houssemdrira100@gmail.com">houssemdrira100@gmail.com</a></p>
